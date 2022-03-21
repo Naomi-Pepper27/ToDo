@@ -200,11 +200,11 @@ var select = document.querySelector('select');
 //select.addEventListener('input', runEvent);
 
 
-form.addEventListener('submit', runEvent);
+//form.addEventListener('submit', runEvent);
 
-function runEvent(e){
-    e.preventDefault();
-    console.log('EVENT type: '+e.type);
+//function runEvent(e){
+  //  e.preventDefault();
+    //console.log('EVENT type: '+e.type);
     //console.log(e.target.value);
 
     //document.body.style.display ='none';
@@ -216,4 +216,4 @@ function runEvent(e){
 
 //document.body.style.backgroundColor = "rgb("+e.offsetX+","+e.offsetY+",40)";
 
-}
+//}
